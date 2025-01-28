@@ -1,0 +1,14 @@
+
+
+{% extends "base.html" %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+<h1>Welcome to {{ title }}</h1>
+<div class="mt-4">
+    <p>This is a simple Flask application running on Azure App Service.</p>
+    <p>Current Time: {{ current_time }}</p>
+</div>
+{% endblock %}
+
